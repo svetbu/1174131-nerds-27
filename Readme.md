@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Светлана Буторина](https://up.htmlacademy.ru/htmlcss/27/user/1174131).
-* Наставник: [Антон Шабельников] (https://htmlacademy.ru/profile/hulkaton).
+* Наставник: [Антон Шабельников] (https://up.htmlacademy.ru/htmlcss/27/user/292541).
 
 ---
 
