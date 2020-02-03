@@ -7,7 +7,7 @@
   <body>
     <header>
       <nav>
-        <a>
+        <a href="index.html">
           <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип дизайн-студии «Нёрдс»">
         </a>
         <ul>
@@ -25,7 +25,7 @@
       <aside>
         <h2> Фильр товаров</h2>
           <p class="product-filter-cost">Стоимость:</p>
-          <span>от</span> <span>до</span>
+          <!-- Здесь будет выбор диапазона цен -->
           <p>Сетка:</p>
         <ul>
           <li>Адаптивная</li>
@@ -40,8 +40,7 @@
           <li>Галерея</li>
           <li>Корзина</li>
         </ul>
-         <!-- кнопка -->
-        <a href="">Показать</a>
+        <button type="submit">Показать</button>
       </aside>
 
       <section>
@@ -59,28 +58,40 @@
         <h2>Список готовых шаблонов</h2>
         <ul>
           <li>
-            <img src="img/browser.png" width="360" height="40">
             <img src="img/img-sedona.jpg" width="360" height="576" alt="шаблон Sedona">
+            <h3>Sedona</h3>
+              <p>Информационный сайт для туристов</p>
+              <a href="#">9 900 руб.</a>
           </li>
           <li>
-            <img src="img/browser.png" width="360" height="40">
             <img src="img/img-pink.jpg" width="360" height="576" alt="шаблон Pink">
+            <h3>PINK APP</h3>
+              <p>Продуктовый лендинг приложения для iOS и Android</p>
+              <a href="#">9 900 руб.</a>
           </li>
           <li>
-            <img src="img/browser.png" width="360" height="40">
             <img src="img/img-barbershop.jpg" width="360" height="576" alt="шаблон Бородинский">
+            <h3>BARBERSHOP</h3>
+              <p>Сайт салона красоты. Для мужчин, да.</p>
+              <a href="#">9 900 руб.</a>
           </li>
           <li>
-            <img src="img/browser.png" width="360" height="40">
             <img src="img/img-mishka.jpg" width="360" height="576" alt="шаблон Mishka">
+            <h3>MISHKAP</h3>
+              <p>Интернет-магазин вязаных игрушек</p>
+              <a href="#">9 900 руб.</a>
           </li>
           <li>
-            <img src="img/browser.png" width="360" height="40">
             <img src="img/img-aplus.jpg" width="360" height="576" alt="шаблон A plus">
+            <h3>A PLUS</h3>
+              <p>Лендинг курсов повышения квалификации</p>
+              <a href="#">9 900 руб.</a>
           </li>
           <li>
-            <img src="img/browser.png" width="360" height="40">
             <img src="img/img-kvast.jpg" width="360" height="576" alt="шаблон Кваст">
+            <h3>КВАСТ</h3>
+              <p>Промо-сайт производителя крафтового кваса</p>
+              <a href="#">9 900 руб.</a>
           </li>
         </ul>
         <ol>
@@ -99,20 +110,38 @@
         <p>NЁRDS DESIGN STUDIO</p>
         <p>191186, Санкт-Петербург,<br>
            ул. Б. Конюшенная, д. 19/8</p>
-        <p>тел. +7 (812) 275-75-75</p>
-        <button type="button">Напишите нам</button>
-        <!-- Попап -->
+        <a href="+7 (812) 275-75-75">тел. +7 (812) 275-75-75</a>
+        <p>
+          <a href="">Напишите нам</a>
+        </p>
       </section>
 
       <div>
         <ul>
-          <li><a href=""><img src="img/vk-icon.png" width="79" height="79" alt="Вконтакте"></a></li>
-          <li><a href=""><img src="img/fb-icon.png" width="79" height="79" alt="Фейсбук"></a></li>
-          <li><a href=""><img src="img/insta-icon.png" width="79" height="79" alt="Инстаграм"></a></li>
+          <li><a href=""><img src="img/vk-icon.svg" width="26" height="15" alt="Вконтакте">Вконтакте</a></li>
+          <li><a href=""><img src="img/fb-icon.svg" width="12" height="22" alt="Facebook">Facebook</a></li>
+          <li><a href=""><img src="img/insta-icon.svg" width="21" height="21" alt="Instagram">Instagram</a></li>
         </ul>
       </div>
         <p>Давайте дружить, это выгодно!</p>
         <p>Скидка 10% для друзей из социальных сетей.</p>
     </footer>
+        <section>
+          <h2>Напишите нам</h2>
+          <form action="" method="post">
+            <p>
+              <label for="username">Ваше имя</label>
+              <input type="text" name="username" value="" placeholder="Имя Фамилия">
+              <label for="email">Ваш e-mail</label>
+              <input type="email" id="email" name="email" value="" placeholder="email@example.com">
+            </p>
+            <p>
+              <label for="text-letter">Текст письма</label>
+              <textarea id="text-letter" name="name" rows="8" cols="80"></textarea>
+            </p>
+            <button type="submit">Отправить</button>
+          </form>
+          <button type="button">Закрыть</button>
+        </section>
   </body>
 </html>
